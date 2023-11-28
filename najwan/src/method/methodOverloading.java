@@ -21,17 +21,15 @@ public class methodOverloading {
     }
 
     // Overloaded cari luas Lingkaran
-    public static int cariLuas(int r) {
-         double phi = 22/7f;
-        // System.out.println(phi);
-        int hasil = 0;
+    public static double cariLuas(int r) {
+        double phi = 22/7f;
+        double hasil = 0;
         if(r % 2 == 1){
-           
-            hasil = (int)(phi * r * r);
+            hasil = phi * r * r;
         }
         return hasil;
-
     }
+    
 
     
 }
